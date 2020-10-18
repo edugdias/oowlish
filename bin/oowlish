@@ -13,7 +13,7 @@
 case "$1" in
   start)
     echo "Starting Oowlish..."
-    sudo -u ec2-user bash -c 'cd /home/ec2-user/oowlish && ./start-oowlish.sh'
+    sudo -u ec2-user bash -c '/home/ec2-user/oowlish/bin/start-oowlish.sh'
     ;;
   stop)
     echo "Stopping Oowlish..."
