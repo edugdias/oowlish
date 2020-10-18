@@ -13,4 +13,4 @@ sudo chmod 755 /etc/init.d/oowlish
 sudo chkconfig --add oowlish
 
 # Start the Oowlish app
-sudo /etc/init.d/oowlish start
+sudo reboot
