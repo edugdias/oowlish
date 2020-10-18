@@ -17,7 +17,7 @@ case "$1" in
     ;;
   stop)
     echo "Stopping Oowlish..."
-    kill -9 `ps -ef |grep -i "python3 app.py" | grep -v grep | awk '{print $2}'`
+    kill -9 `ps -ef |grep -i "python3 /home/ec2-user/oowlish/app.py" | grep -v grep | awk '{print $2}'`
     ;;
   *)
     echo "Usage: /etc/init.d/oowlish {start|stop}"
