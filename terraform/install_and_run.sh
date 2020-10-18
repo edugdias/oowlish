@@ -8,7 +8,7 @@ sudo yum install python36 python36-pip git -y
 git clone https://github.com/edugdias/oowlish.git
 
 # Configure app startup script
-sudo cp ./bin/oowlish /etc/init.d
+sudo cp /home/ec2-user/oowlish/bin/oowlish /etc/init.d
 sudo chmod 755 /etc/init.d/oowlish
 
 # Start the Oowlish app
