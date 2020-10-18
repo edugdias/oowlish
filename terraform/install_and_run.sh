@@ -10,6 +10,7 @@ git clone https://github.com/edugdias/oowlish.git
 # Configure app startup script
 sudo cp /home/ec2-user/oowlish/bin/oowlish /etc/init.d
 sudo chmod 755 /etc/init.d/oowlish
+sudo chkconfig --add oowlish
 
 # Start the Oowlish app
 sudo /etc/init.d/oowlish start

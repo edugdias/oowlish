@@ -4,6 +4,10 @@
 # Provides:          Oowlish
 # Short-Description: Oowlish
 # Description:       Run Oowlish service
+# Required-Start: $network
+# Required-Stop: $network
+# Default-Start: 2 3 5
+# Default-Stop: 0 1 6
 ### END INIT INFO
 
 case "$1" in
